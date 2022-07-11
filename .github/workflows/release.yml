@@ -16,3 +16,7 @@ jobs:
         run: npm install
       - name: Executar testes de unidade
         run: npm run test:unit
+      - name: Instalação do Heroku
+        run: npm install -g heroku
+      - name: Login no Heroku
+        run: heroku authorizations:create
