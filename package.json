@@ -5,6 +5,7 @@
   "main": "frota-veiculo-apis/server.js",
   "scripts": {
     "dev": "nodemon --inspect frota-veiculo-apis/server.js",
+    "start": "node frota-veiculo-apis/server.js",
     "swagger-autogen": "node frota-veiculo-apis/swagger.js",
     "test": "jest --force-exit",
     "test:unit": "jest __tests__/units --force-exit",
