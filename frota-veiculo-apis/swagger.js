@@ -11,7 +11,7 @@ const doc = {
     title: "Me Leva Ai",
     description: ""
   },
-  host: "localhost:3001",
+  host: "https://me-leva-ai-cicd.herokuapp.com",
   basePath: "/api", // rota base
   consumes: ['application/json'],
   produces: ['application/json'],

@@ -19,7 +19,7 @@ const options = {
       },
       servers: [
         {
-          url: "http://localhost:3001/api/"
+          url: "https://me-leva-ai-cicd.herokuapp.com/api"
         }
       ]
     },

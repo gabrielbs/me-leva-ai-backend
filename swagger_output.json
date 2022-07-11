@@ -5,7 +5,7 @@
     "title": "Me Leva Ai",
     "description": ""
   },
-  "host": "localhost:3001",
+  "host": "https://me-leva-ai-cicd.herokuapp.com",
   "basePath": "/api",
   "schemes": [
     "http"
