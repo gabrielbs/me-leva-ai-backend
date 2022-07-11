@@ -10,7 +10,7 @@ afterEach(() => {
 });
 
 describe('Teste de Corrida', () => {
-  test('Deverá inserir uma corrida', async () => {
+  test.skip('Deverá inserir uma corrida', async () => {
     const data = {
       user: '0123456789',
       vehicle: 'xxx-0000',
@@ -61,7 +61,7 @@ describe('Teste de Corrida', () => {
     expect(JSON.parse(JSON.stringify(response.data.vehicle))).toMatchObject(vehicleDataUpdate);
   });
 
-  test('Deverá iniciar uma corrida', async () => {
+  test.skip('Deverá iniciar uma corrida', async () => {
     const status = "start";
     const rideData = {
       _id: '62c49e69b52490951c26dd70',
@@ -117,7 +117,7 @@ describe('Teste de Corrida', () => {
     expect(JSON.parse(JSON.stringify(response.data))).toMatchObject(rideDataUpdate);
   });
 
-  test('Deverá finalizar uma corrida', async () => {
+  test.skip('Deverá finalizar uma corrida', async () => {
     const status = "finish";
     const rideData = {
       _id: '62c49e69b52490951c26dd70',

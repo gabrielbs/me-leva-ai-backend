@@ -7,6 +7,8 @@
     "dev": "nodemon --inspect frota-veiculo-apis/server.js",
     "swagger-autogen": "node frota-veiculo-apis/swagger.js",
     "test": "jest --force-exit",
+    "test:unit": "jest __tests__/units --force-exit",
+    "test:integration": "jest __tests__/integration --force-exit",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage --force-exit",
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
