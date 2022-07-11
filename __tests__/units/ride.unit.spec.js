@@ -10,7 +10,7 @@ afterEach(() => {
 });
 
 describe('Teste de Corrida', () => {
-  test.skip('Deverá inserir uma corrida', async () => {
+  test('Deverá inserir uma corrida', async () => {
     const data = {
       user: '0123456789',
       vehicle: 'xxx-0000',
