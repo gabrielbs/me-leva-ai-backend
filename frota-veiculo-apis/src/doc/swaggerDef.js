@@ -19,7 +19,7 @@ const options = {
       },
       servers: [
         {
-          url: "https://me-leva-ai-cicd.herokuapp.com/api"
+          url: "me-leva-ai-cicd.herokuapp.com/api"
         }
       ]
     },
