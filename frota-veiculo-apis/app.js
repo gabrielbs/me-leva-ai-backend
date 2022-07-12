@@ -31,6 +31,7 @@ requireDir('./src/models');
 // consumindo a rota
 app.use('/api', require('./src/routers/index.routes'));
 app.get('/', (req, res) => res.json({ message: 'Funcionando!' }));
+app.get('/oie', (req, res) => res.json({ message: 'oie!' }));
 
 
 // TODO instanciando o swagger
